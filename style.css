@@ -1,0 +1,200 @@
+body {
+  margin-top: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#dashboardWrapper {
+/* Medical Dashboard */
+position: relative;
+width: 1440px;
+height: 900px;
+background: #f5f5f5;
+}
+
+h1,h2,h3 {
+  font-family: Lato;
+}
+
+#leftPanel {
+  position: absolute;
+  width: 240px;
+  height: 900px;
+  left: 0px;
+  top: 0px;
+  background-color: white;
+}
+
+#logoandMenu {
+  /* Logo and Menu */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 40px;
+  position: absolute;
+  width: 176px;
+  height: 488px;
+  left: 32px;
+  top: 40px;
+}
+
+#logoWrapper {
+  /* Logo */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 163px;
+  height: 40px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#logoContainer {
+  /* Logo */
+  width: auto;
+  height: 40px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+#menuContainer {
+/* MenuContainer */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 24px;
+width: 176px;
+height: 408px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+#dashboardIcon {
+  /* Dashboard */
+width: 176px;
+height: 48px;
+
+/* Medical Dashboard/green */
+background-color: #cef0d1;
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#menuText {
+  /* Icon and Title */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+padding-left: 20px;
+gap: 16px;
+position: relative;
+width: 114px;
+height: 24px;
+left: 16px;
+top: 12px;
+color: green;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 12px;
+}
+
+#menuItem {
+  /* Statistic */
+
+width: 176px;
+height: 48px;
+background: #FFFFFF;
+border-radius: 10px;
+padding-left: 20px;
+font-size: 12px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+#logOut {
+  /* Log Out */
+position: absolute;
+width: 176px;
+height: 48px;
+left: 32px;
+top: 812px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+#center {
+ /* Content */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 32px;
+
+position: absolute;
+width: 824px;
+height: 820px;
+left: 272px;
+top: 40px;
+
+}
+
+#search {
+/* Search */
+width: 752px;
+height: 48px;
+border-radius: 10px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+#searchInput {
+  width: 500px;
+  padding: 15px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+#dataSection {
+background-color: #FFFFFF;
+width: auto;
+height: auto;
+}
